@@ -1,0 +1,4 @@
+rootProject.name = 'kafka-integration-module'
+
+include 'queue'
+include 'application'

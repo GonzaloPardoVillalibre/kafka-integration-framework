@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "216b0cab-527e-4961-bcc6-ffdeb3d93885",
+		"name": "kafka-integration-framework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Insert Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"gonchi\",\n    \"age\": 16,\n    \"mail\": \"gonzalopmb@gmail.com\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/insertedCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"insertedCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"gonchi\",\n    \"age\": 16,\n    \"mail\": \"gonzalopmb@gmail.com\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/insertedCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"insertedCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updated Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"gonchi\",\n    \"age\": 16,\n    \"mail\": \"gonzalopmb@gmail.com\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/insertedCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"insertedCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Dealer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uniqueId\": \"gonchi1234\",\n    \"location\": \"valladolid\",\n    \"mail\": \"gonzalopmb@gmail.com\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/insertedDealer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"insertedDealer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Dealer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uniqueId\": \"gonchi1234\",\n    \"location\": \"valladolid\",\n    \"mail\": \"gonzalopmb@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/deletedDealer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"deletedDealer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Dealer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"uniqueId\": \"gonchi1234\",\n    \"location\": \"valladolid\",\n    \"mail\": \"gonzalopmb@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/producer/deletedDealer",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"producer",
+						"deletedDealer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
